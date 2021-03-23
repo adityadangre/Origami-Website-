@@ -1,0 +1,81 @@
+body {background-color: rgb(255, 255, 228);}
+h1{color:rgb(255, 0, 0)}
+u{color:rgb(0, 0, 0)}
+h2{color:rgb(0, 255, 242)}
+p{color:rgb(255, 255, 255)}
+a{color:rgb(255, 255, 255)}
+
+a:hover{
+  color: green;
+}
+
+.bgbor{
+  border: solid;
+  border-color: rgb(0, 0, 0);
+  border-radius: 10mm;
+  border-width: 3mm;
+}
+
+body {
+    background-image: url('https://i.pinimg.com/originals/e5/89/95/e5899572ecace2b0895b36db7703a001.gif');            
+    background-attachment: fixed;
+    background-size: 45cm; 
+}
+
+.header{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro{
+    background-image: url('https://img.freepik.com/free-photo/black-texture-with-brick-wall-background_35257-311.jpg?size=626&ext=jpg');
+    display: flex;
+    justify-content: center;
+    opacity: 0.8;
+}
+
+.bgt{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 228);
+    justify-content: center;
+    border:double;
+    border-width: 0.4cm;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+
+  .card {
+    flex: 0 0 300px;
+    margin: 23px;
+    border: 10px solid #ccc;
+    border-radius: 10mm;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    background-color: #EE6749;
+    opacity: 0.9;
+  } 
+
+  .card img {
+    max-width: 100%;
+  }
+
+  .card .text {
+    padding: 0 20px 10px;
+    color:rgb(255, 255, 255)
+  }
+
+  .card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+  }
